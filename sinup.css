@@ -63,7 +63,6 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* Add media query for responsiveness */
 @media (max-width: 600px) {
     .login-container {
         width: 80%;
