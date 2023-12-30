@@ -16,14 +16,15 @@
 .nav-logo {
     height: 50px;
     width: 100px;
+    background-color: #0f1111!important;
 }
 
-.logo {
-    background-image: url("../image/amazon_logo.png");
+ .logo {
+    background-image: url("img/logo.png");
     background-size: cover;
-    height: 50px;
+    height: 50vw;
     width: 100%;
-}
+} 
 
 .border {
     border: 2px solid transparent;
@@ -143,7 +144,7 @@ a {
 
 /** hero section **/
 .hero-section {
-    background-image: url("/image/hero_image.jpg");
+    background-image: url("img/baground.jpg");
     background-size: cover;
     height: 350px;
     display: flex;
@@ -246,10 +247,11 @@ ul a {
 }
 
 .logo {
-    background-image: url("../image/amazon_logo.png");
+    background-image: url("./img/amazon_logo.jpg");
     background-size: cover;
     height: 50px;
     width: 100px;
+    background-color: #0f1111;
 }
 
 .foot-panel4 {
@@ -266,4 +268,26 @@ ul a {
 
 .copyright {
     padding-top: 5px;
+}
+.box-image1{
+    height: 300px;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-image3{
+    height: 300px;
+    background-size: 20vw;   
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-image7{
+    height: 100vh;
+    width: 100vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
